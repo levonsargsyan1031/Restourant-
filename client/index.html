@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <header id="home" class="header">
+    <div class="shadow">
+        <div class="container">
+            <div class="block_menu">
+                <div class="group_menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallary">Gallary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#book-table">Book-Table</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="group_menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testmonial">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="titel_block">
+            <h1 class="title">Food O'Clock</h1>
+        </div>
+    </div>
+</header>
+<div  class="about_container" id="about">
+        <div class="aboust_block_one">
+            <div class="container">
+                <div class="aboust_block_two">
+                    <h2 class="about_titel">About Us</h2>
+                    <p class="about_subtitel">Time O'clock, is a compilation of lively dining experiences. Time O'clock celebrates the best of Armenian, Italian American dishes with welcoming hospitality and service. Our menu is a walk around the country — and the world.  
+                        Restaurant also offers a “For the Table” chef-curated option for a family-style experience, offered evening alongside the full  menu. The Time O'clock  restaurant, a place to sit and read, eat and watch the world.  
+                       Welcome to our restaurant and get to know our small, passionate, and hardworking crew of folks
+                </div>
+             <h2 class="menu_titel">OUR MENU</h2>
+
+            </div>
+        </div>
+</div>
+
+
+
+<table class="menu_table" id="gallary">
+    <tr class="menu_tr">
+        <td class="menu_td_1 menuItem" onclick="onMenuClick('Salads')"></td></a>
+        <td class="menu_td_2 menuItem" onclick="onMenuClick('Pasta')"></td>
+        <td class="menu_td_3 menuItem"   onclick="onMenuClick('Pizza')"></td>
+        <td class="menu_td_4 menuItem" onclick="onMenuClick('Tolma')"></td>   
+    </tr>
+    <tr class="menu_tr">
+        <td class="menu_td_5 menuItem" onclick="onMenuClick('Sandwiches')"></td>
+        <td class="menu_td_6 menuItem" onclick="onMenuClick('Coffee')"></td>
+        <td class="menu_td_7 menuItem" onclick="onMenuClick('Juice')"></td>
+        <td class="menu_td_8 menuItem" onclick="onMenuClick('Wine')"></td>   
+    </tr> 
+    
+</table>
+
+<div class="container" id="menuList">
+</div>
+ <!--BOOK A TABLE-->
+ <div class="book-table" id="book-table">
+    <div class="book_table">
+        <h2 class="section-title ">BOOK A TABLE</h2>
+        <div class="book-body">
+            <div class="book-col">
+                <input type="email" id="book-baton" class="book_baton" placeholder="EMAIL">
+            </div>
+            <div class="book-col">
+                <input type="number" id="book-baton" class="book_baton" placeholder="NUMBER OF GUESTS" max="20" min="0">
+            </div>
+            <div class="book-col">
+                <input type="time" id="book-baton" class="book_baton" placeholder="EMAIL">
+            </div>
+            <div class="book-col">
+                <input type="date" id="book-baton" class="book_baton" placeholder="12/12/12">
+            </div>
+        </div>
+        <a href="#" class="btn-book " id="rounded-btn">FIND TABLE</a>
+    </div>
+</div>
+<div class="container" id="menuList">  
+</body>
+<script src="./js/menuItem.js" ></script>
+</html>

@@ -1,0 +1,213 @@
+ *{
+  box-sizing: border-box;
+  text-decoration-line:none;
+  list-style-type: none;
+ }
+ body{
+  margin:0;
+  padding: 0;
+ }
+ .header{
+  width: 100%;
+  background-image: url("/client/imgs/main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ }
+ .shadow{
+  width: 100%;
+  padding-bottom: 80px;
+  background-color: #00000073;
+ }
+ .container{
+  width: 1440px;
+  margin: auto;
+ }
+ .block_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+ }
+ .group_menu{
+  width: 30%;
+ }
+.navbar-nav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav-link{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  transition: 0.20s;
+
+}
+.nav-link:hover{
+  color:black;
+  background-color: grey;
+  border: 2px solid white;
+}
+.titel_block{
+  width: 750px;
+  margin:150px auto;
+}
+.title{
+  font-size: 110px;
+  text-align: center;
+  color:white;
+}
+.aboust_block_one{
+  width: 100%;
+  height: 500px;
+  background-image: url(/client/imgs/about-section.jpg);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+}
+.aboust_block_two{
+  width: 440px;
+  margin: 100px 0 0 900px;
+}
+.about_container{
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2e2d2df2;
+}
+.about_titel{
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+.about_subtitel{
+  line-height: 25px;
+  color:#fff;
+}
+.menu_titel{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+.menu_table{
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.menuItem  {
+  width: 358px;
+  height: 358px;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
+}
+
+.menuItem:hover {
+  cursor: pointer;
+  webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+  filter: blur(1px);
+}
+.menu_td_1{
+  background-image: url("/client/imgs/salad.jpg");
+}
+.menu_td_2{
+  background-image: url("/client/imgs/pasta.jpg");
+}
+.menu_td_3{
+  background-image: url("/client/imgs/pizza.jpg");
+}
+.menu_td_4{
+  background-image: url("/client/imgs/tolma.jpg");
+}
+.menu_td_5{
+  background-image: url("/client/imgs/sendwich.jpeg");
+  
+}
+.menu_td_6{
+  width: 358px;
+  height: 358px;
+  border: 1px solid black;
+  background-image: url("/client/imgs/coffee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu_td_7{
+  width: 358px;
+  height: 358px;
+  border: 1px solid black;
+  background-image: url("/client/imgs/juice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu_td_8{
+  width: 358px;
+  height: 358px;
+  border: 1px solid black;
+  background-image: url("/client/imgs/wine.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+ .book-table{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-image: url("/client/imgs/book-table-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  .book-body{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+.book_table{
+    display: flex;
+    flex-direction: column;
+}
+.section-title{
+
+}  
+.contact_body{
+  background-color: #00000073;
+}
+.container-fluid{
+  background-color: #00000073;
+}
+.book_baton{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(167, 100, 100, 0.433);
+}
+.book-col{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  transition: 0.20s;
+}
+.book-col{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(167, 100, 100, 0.433);
+}
+.btn-book{
+  width: 100px;
+  background-color: rgba(167, 100, 100, 0.433);;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
